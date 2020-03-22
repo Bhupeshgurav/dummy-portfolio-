@@ -1,0 +1,109 @@
+body{
+    margin:0;
+}
+
+/*................. NAVIGATION SECTION ..................*/
+.nav{
+    background-color: purple
+}
+
+.logo, .menu{
+    display:inline-block;
+}
+.menu{
+    
+    float: right;
+    margin:20px;
+}
+.logo{
+    
+    margin: 20px; 
+}
+.menu ul {
+    list-style:none;
+    padding-left: 0px;
+    margin: 0;
+    
+
+}
+.menu ul li {
+    display:inline-block;
+    margin-right:20px;
+    
+}
+
+.menu ul li a {
+    padding: 20px 15px 20px 20px;
+    text-decoration:none;
+    color: black;
+}
+.menu ul li a:hover{
+    background-color:lavender;
+    color:rgb(26, 5, 3);
+    transition: all 0.3s ease;
+}
+/*.................HEADER SECTION ..................*/
+header{
+    background-image:url("../image/img1.jpg");
+  
+    height:500px;
+    background-image: cover;
+    color: aliceblue;
+    background-repeat:no-repeat;
+    
+}
+header p {
+    margin:0;
+    
+}
+
+.img1-container{
+    text-align: center;
+    margin-top : 0px;
+}
+.mywork{
+    background-color:crimson;
+    display:inline-text;
+    padding: 15px 20px;
+    float: left;
+    margin: 15px 10px;
+    color: black;
+    font-weight:bold;
+    border-radius:20px;
+    text-decoration:none;
+    transition: all 0.1s ease;
+}
+.mycontact{
+    background-color:crimson;
+    display:inline-text;
+    padding: 15px 20px;
+    float: right;
+    margin: 15px 10px;
+    color: black;
+    font-weight:bold;
+    border-radius:20px;
+    text-decoration:none;
+    transition: all 0.1s ease;
+}
+/*.................about me section ..................*/
+.about-me{
+    width: 100%
+}
+
+.about-me .col-left,.about-me .col-right{
+width: 50%;
+float :left;
+display:inline-text;
+
+} 
+
+.about-me .col-left img{
+   max-width: 100%; 
+}
+.about-me .col-right{
+    max-width: 100%;;
+}
+.about-me h2{
+text-align:center;
+}
+
